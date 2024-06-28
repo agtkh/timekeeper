@@ -107,11 +107,9 @@ $(function () {
 
 	var audio_chime1, audio_chime2, audio_chime3, audio_chime4;
 	audio_chime1 = new Audio("./wav/chime1.mp3");
-	// audio_chime2 = new Audio("./wav/chime2.mp3");
-	// audio_chime3 = new Audio("./wav/chime3.mp3");
-	audio_chime2 = new Audio("./wav/chime1.mp3");
-	audio_chime3 = new Audio("./wav/chime1.mp3");
-	audio_chime4 = new Audio("./wav/chime1.mp3");
+	audio_chime2 = new Audio("./wav/chime2.mp3");
+	audio_chime3 = new Audio("./wav/chime3.mp3");
+	audio_chime4 = audio_chime1;
 
 	function changeStateClass(s) {
 		$('body').removeClass(function (index, className) {
